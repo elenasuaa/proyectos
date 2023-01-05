@@ -1,0 +1,221 @@
+* {
+	margin: 0;
+	padding: 0;
+    /* background: paleturquoise; */
+}
+
+#barra{
+    background: #002060; 
+    width: 100%;
+	height: 75px;
+
+}
+
+h1{
+    color: #002060;
+    font-size: 28px;
+    padding: 32px 50px;
+}
+
+img{
+    width: 25%;
+    margin: 20px 25px;
+}
+
+#tb-tp{
+    width: 40%;
+}
+
+#tb-tp td{
+    background: #DAE3F3;
+    border: 1px solid #B4C7E7;
+    margin: 5%;
+    /* width: 20%; */
+}
+
+/* #tb-tp tr{
+    margin: 30px;
+} */
+
+button{
+    color: white;
+    font-size: 14px;
+    background:#002060;
+    font-family: Century Gothic;
+    cursor: pointer;
+    border: transparent;
+    font-weight: bold;
+    padding: 9px 12px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+#saldo{
+    color: #595959;
+    font-size: 18px;
+    text-align: center;
+    background: #F2F2F2;
+    border: 1px solid #DBDBDB;
+    width: 20%;
+    float: right;
+    padding: 15px;
+    margin: 6px 7%;
+    font-weight: 700;
+}
+
+#total{
+    color: #595959;
+    font-size: 14px;
+    text-align: center;
+    background: #F2F2F2;
+    border: 1px solid #DBDBDB;
+    width: 20%;
+    float: right;
+    padding: 15px;
+    margin: 6px 7%;
+}
+
+#info-g{
+    width: 20%;
+    height: 24px;
+    background-color: #DAE3F3;
+    font-size: 14px;
+    color: #002060;
+    text-align: left;
+    float: left;
+    margin: 6px 6.5%;
+    font-weight: bold;
+    padding: 8px 0px 0px 10px;
+    text-shadow: 0 1px 0 #e5ffcc;
+    border: 1px solid #B4C7E7;
+    border-radius: 6px 6px 0px 0px;
+    border-bottom: 0px solid transparent;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.8);
+     box-shadow: 0 1px 2px rgb(0 0 0 / 10%); 
+}
+
+#tb-ingreso{
+    background: #DAE3F3;
+    border: 1px solid #B4C7E7;
+    padding: 20px 6px;
+    width: 86%;
+    /* top: 50%;
+    left: 50%; */
+}
+
+#tb-a{
+    background: #DAE3F3;
+    border: 1px solid #B4C7E7;
+    padding: 20px 6px;
+    width: 86%;
+}
+
+#tb-e_cuenta{
+    background: #DAE3F3;
+    border: 1px solid #B4C7E7;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0.001px;
+    width: 98%;
+}
+
+#tb-e_cuenta th{
+    padding: 5px 1px;
+    color: black;
+    font-size: 12px;
+    background-color: #E7E6E6;
+    border: 1px solid #D0D0D0;
+    font-weight: bold;
+    height: 20px;
+}
+
+#tb-e_cuenta tr td{
+	font-size: 12px;
+    padding: 1px 2px;
+    color: #404040;
+    border: 1px solid #D0D0D0;
+    background-color: white;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+
+
+#tb-ingreso td{
+    font-size: 14px;
+    /* column-count: 2; */
+    padding: 5px 20px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+#tb-config{
+    background: #DAE3F3;
+    border: 1px solid #F9F9F9 ;
+    padding: 20px 6px;
+    width: 86%;
+}
+
+
+#td-ng2 label{
+    width: 18%;
+    text-align: right;
+}
+
+/* td input{
+    display: block;
+} */
+
+input[type=text],
+input[type=date]{    
+    font-family: Century Gothic;
+    font-size: 14px;
+    border: 1px #1F4E79 solid;
+    border-radius: 5px;
+    padding: 3px 8px;
+    width: 30%;
+    margin: 4px 1px;
+    height: 20px;
+}
+
+textarea{   
+    font-family: Century Gothic;
+    font-size: 14px;
+    border: 1px #1F4E79 solid;
+    border-radius: 5px;
+    padding: 6px 8px;
+    width: 30%;
+    margin: 4px 1px;
+} 
+
+label{
+    font-size: 14px;
+    padding: 5px 25px;
+    width: 7%;
+    /* justify-content: space-between; */
+    /* display: block; */
+    text-align: right;
+}
+
+a{
+    color: #002060;
+    margin: 12px;
+}
+
+.btn{
+    color: white;
+    font-size: 14px;
+    background-color: #002060;
+    font-family: Century Gothic;
+    cursor: pointer;
+    border: transparent;
+    /* font-weight: bold; */
+    padding: 9px 21px;
+    border-radius: 4px;
+    justify-content: right;
+}
+
+#btns{
+    float: right;
+    margin: 6px 7%;
+}

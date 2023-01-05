@@ -1,0 +1,35 @@
+body{
+    font-family: Century Gothic;
+    background-color: #CCCCFF;
+}
+
+#btn-regresar{
+    text-decoration: none;
+    color: #ffffff!important;
+    border-width: 12px!important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 0px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: "Century gothic";
+    font-weight: 300!important;
+    padding-right: 2em;
+    padding-left: 0.5em;
+    background-color: black;
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+}
+
+td, tr, th{
+    font-size: 15px;
+    padding: 5px 1px 5px 6px;
+    margin: 10px;
+    color: black;
+    border: 1px solid #3399FF;
+    background-color: #99CCFF;
+}
+

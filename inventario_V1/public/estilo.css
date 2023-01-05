@@ -1,0 +1,177 @@
+/*body, html{
+    margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+    color: #585858;
+}*/
+
+body {
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+form{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #075C07;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info p {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+p.account,
+p.account a {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    color: #888;
+}
+
+p.account a {
+    color: #0F7B0F;
+}
+
+p.account a:hover {
+    text-decoration: underline;
+}
+
+a.forgot {
+    color: #3b3663;
+    margin-top: 2px;
+}
+
+a.forgot:hover {
+    text-decoration: underline;
+}
+
+.cuadro{
+    padding: 40px 40px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.info h2 {
+    display: inline-block;
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #3DA43E;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    font-size: 15px;
+    font-weight: 500;
+    color: #999;
+    text-align: left;
+    padding: 14px 15px 12px 35px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    letter-spacing: .5px;
+}
+
+.input-group {
+    margin-bottom: 25px;
+    padding: 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.info {
+    box-sizing: border-box;
+    padding: 3em 3.5em;
+    width: 450px;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-info {
+    margin: 40px 0;
+}
+
+button,
+input{
+    -webkit-appearance: none;
+    outline: none;
+}
+
+button,
+.btn{
+    cursor: pointer;
+}
+
+.btn-block {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn:active {
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3CCF3C;
+    margin-top: 30px;
+    outline: none;
+    width: 100%;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: none;
+    text-transform: capitalize;
+}
+.btn-primary:hover {
+    background-color: #3DA43E;
+    color: #fff;
+}

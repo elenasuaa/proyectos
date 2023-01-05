@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo_cont.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div class="contacto">
+		<h2>CONTACTO</h2><br>
+		<div class="contenedor">
+            <h3>Formulario contacto</h3>
+            <p>Contáctenos para adquirir un accesorio</p>
+                <p>¿Busca productos con buena vibra, personalizados y con buena calidad? Nos encantaría conectarnos.<br>
+                    ¡Comuníquese y háganos saber cómo podemos ayudarlo!<br>
+                    ¡Estamos ansiosos por crear nuevos productos! ¡Simplemente complete el formulario y nos pondremos en contacto con usted en breve!
+                </p>
+            <div class="cont">
+            <div class="cont_horario">
+                <div class="info">
+            </div>
+            <form class="formulario" action="validar.php" method="POST">
+                <p><b>Mándanos un mensaje</b></p>
+                <!-- <b><label form="nombre">Nombre</label><br></b> -->
+                    <input type="text" placeholder="Nombre" required>	
+                    <!-- <b><label form="username">Ingresa tu correo electrónico</label> <br></b> -->
+                    <input type="email" placeholder="Correo electrónico" required><br>
+                    <!-- <label>Mensaje:</label><br> -->
+                    <input type="text" placeholder="Asuto" required>
+		            <textarea placeholder="Mensaje" required></textarea><br>
+                    <div class="g-recaptcha" data-sitekey="6LezItEeAAAAAH4Fe0BgDuSmS_CDJaxbL8jS8GqG"></div><br>
+                    <a href="index.php"><button id="btn-regresar">Regresar</button></a>
+                    <input type="submit" id=boton_registrate value="Iniciar sesión">
+            </form>
+            </div>
+        </div>
+		</div>
+	</div>
+</body>
+</html>

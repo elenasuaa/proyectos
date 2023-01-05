@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* section {
+	padding: 15px;
+	width: 100%;
+	background-color: #002060;
+} */
+
+.encabezado {
+	background: #002060; 
+}
+
+.encabezado nav {
+	display: flex;
+	justify-content: right;
+	padding: 0px 20px;
+}
+
+.encabezado nav img{
+	justify-content: left;
+}
+
+.encabezado nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+#cuenta{
+	font-weight: 700;
+	margin: 16px 0px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.encabezado nav ul li ul {
+	display: flex;
+	flex-direction: column;
+	display: none;
+	font-size: 12px;
+	/* text-align: center; */
+}
+
+.encabezado nav ul li ul  {
+	position: absolute;
+	background: #002060;
+}
+
+.encabezado nav ul li:hover > ul{
+	display: block;
+}
+
+a{
+	color: white;
+	padding: 12px 20px;
+	display: block;
+}
+
+.encabezado a:hover {
+	background: #1F4E79; 
+}
+.ingresos{
+	text-align: center;
+}
+
+.ingresos p{
+	font-size: 20px;
+}
+
+.ingresos h2{
+	font-size: 32px;
+}
+
+#fecha_v{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+h3{
+	font-size: 24px;
+}
+
+.nomb_user{
+	padding: 20px 70px;
+}
+
+.imagenes{
+	column-count: 5;
+
+}
+button:hover {
+	background: #B4C6E6;
+    color: #002060;
+    box-shadow: 0.5px 0.8px 0.5px 0.5px #ADB9CA;
+	cursor: pointer;
+}
+
+.encabezado img{
+	width: 80px;
+	height: 70px;
+}
+
+.imagenes img{
+	width: 85px;
+	height: 75px;
+	margin: 16px;
+	display: block;
+}
+
+button{
+	width: 120px;
+	height: 110px;
+	border: 1px solid transparent;
+	border-radius: 100%;
+	background: #DAE3F3;
+
+}

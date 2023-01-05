@@ -1,0 +1,74 @@
+body{
+    background-color: #002060;
+    font-family: Century Gothic;
+}
+
+.sesion input[type="email"],
+.sesion input[type="text"],
+.sesion input[type="date"],
+.sesion input[type="number"],
+.sesion input[type="password"]{    
+    font-family: Century Gothic;
+    font-size: 14px;
+    border: 0px solid transparent;
+    background-color: #1F4E79;
+    padding: 15px 20px;
+    width: 70%;
+    color: white;
+}
+
+.isesion input[type="email"],
+.isesion input[type="password"]{   
+    font-family: Century Gothic; 
+    font-size: 14px;
+    border: transparent;
+    background-color: #1F4E79;
+    padding: 15px 20px;
+    width: 32%;
+    color: white;
+}
+
+
+
+input::placeholder{
+    color: #ADB9CA;
+ }
+
+ .sesion{
+    /*display: flex;
+    flex-wrap: wrap;*/
+    column-count: 2;
+    width: 100%;
+
+}
+
+.btn{
+    color: #002060;
+    font-size: 14px;
+    background-color: white;
+    font-family: Century Gothic;
+    cursor: pointer;
+    border: transparent;
+    font-weight: bold;
+    padding: 9px 21px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #002060;
+    box-shadow: 0.5px 0.8px 0.5px 0.5px #ADB9CA;
+}
+
+a{
+    color: white;
+    font-size: 11px;
+}
+
+a:hover{
+    color: #ADB9CA;
+}
+form{
+    color: white;
+    font-size: 11px;
+}

@@ -1,0 +1,106 @@
+html {
+    display: block;
+}
+
+body {
+    background: #FAFCFF;
+    min-width: 980px;
+    max-width: 1920px;
+    margin: 0 10px 24px;
+    padding: 0;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+#header {
+    height: 40px;
+    overflow: hidden;
+    width: 100%;
+} 
+
+#name span{
+	display: block;
+	font: bold 20px/20px Arial, sans-serif;
+	color: #3C6614;
+	padding: 18px 16px;
+	text-decoration: none;
+	overflow: visible;
+	}
+	
+	
+#navbar-entry {
+	float: right;
+	padding: 4px;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+ #btn-salir{
+    font-size: 10px;
+    border: none;
+    
+}
+#navbar {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    width: 400px;
+}
+
+nav{
+    height: 24px;
+    background-color: #D4ECBA;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 9px 0.2px 0.1px 12px;
+    text-shadow: 0 1px 0 #e5ffcc;
+    border: 1px solid #87cb50;
+    border-radius: 6px 6px 0px 0px;
+    border-bottom: 1px solid #87cb50;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.8);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+
+#nav-inicio{
+    color: #3d6615;
+    text-shadow: 0 1px 0 #fff;
+    text-decoration: none;
+    font: bold 13px/1px Arial, sans-serif;
+    padding: 12px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 15px;
+    color: #3d6615;
+    text-shadow: 0 1px 0 #EDFFE9 ;
+}
+h3{
+    font-size: 15px;
+    color: rgb(0, 128, 0);
+}
+h4{
+    font-size: 14px;
+    color: rgb(0, 128, 0);
+}
+
+#container{
+    padding: 4px 10px;
+    height: 1%;
+    overflow: hidden;
+}
+
+#verticalLine {
+    border-left: 1px solid #BEBEBE;
+    border-right: 1px solid #BEBEBE;;
+    border-spacing: 2px;
+}
+
+
+input, textarea, select{
+    display: block;
+    width: 25%;
+}

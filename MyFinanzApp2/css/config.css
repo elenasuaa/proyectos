@@ -1,0 +1,40 @@
+#tb-config{
+    background: #F2F2F2;
+    border: 1px solid #DBDBDB;
+    padding: 20px 6px;
+    width: 86%;
+}
+
+#tb-config td{
+    font-size: 14px;
+    /* column-count: 2; */
+    padding: 5px 20px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+#config label{
+    margin: 0%;
+	padding: 0%;
+	font-size: 14.5px;
+	color: #484849 ;
+    font-weight: bold;
+}
+
+#config input{
+    width: 100%;
+	margin-bottom:13px;
+	text-align: left;
+}
+
+#config input[type="text"],
+#config input[type="password"]{ 
+	border: none;
+	border-bottom: 1px solid #F0E1ED;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	color: 000;
+	font-size: 12px;
+    float: right;
+}

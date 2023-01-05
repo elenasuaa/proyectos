@@ -1,0 +1,201 @@
+Nanatsu No Taizai:
+Cuando fueron acusados de intentar derrocar la monarquía, los temidos guerreros conocidos como los Siete Pecados Capitales fueron exiliados. Sin embargo, la tercera princesa del Reino de Britannia, Elizabeth, descubre la verdad, que en realidad los guerreros fueron inculpados por los Caballeros Sagrados, la guardia personal del rey, pero es demasiado tarde y no puede impedir que la guardia mate al rey y se apodere del trono. La princesa decide escapar e ira en busca de los Pecados para que le ayuden a recuperar el reino, pero el primero de los guerreros que conoce, Meliodas, es un joven cuyas únicas preocupaciones consisten en atender su taberna junto a Hork, un cerdo que habla. Y ni siquiera tiene una espada de verdad. ¿Acaso exageraban las leyendas acerca de estos guerreros?
+
+Nanatsu No Taizai Seisen No shirushi:
+Mini-serie de 4 episodios (2016). Los Siete pecados capitales, junto con Elizabeth y Hawk, finalmente pueden disfrutar las vidas pacíficas que se ganaron. Sin embargo, con las premoniciones de una nueva amenaza que se avecina, sus días felices y ordinarios están por terminar pronto.
+
+Nanatsu No Taizai Imashine No Fukkatsu:
+Cuando fueron acusados de tratar de acabar con el rey, los temibles Siete Pecados Capitales fueron exiliados. Pero la princesa Elizabeth descubre la verdad: los Pecados fueron inculpados por la guardia del rey, los Caballeros Sagrados. No obstante, fue demasiado tarde y no pudo evitar que los Caballeros dieran un golpe de estado y acabaran con la vida de su padre. Ahora, la princesa ha huido para para buscar la ayuda de los Pecados y así recuperar el reino. El primero con el que se encuentra es con Meliodas, el Pecado de la Ira, y su cerdo, Hawk. Juntos regentan una posada nómada. Pero el joven Meliodas ni siquiera tiene una espada en condiciones. ¿Habrán exagerado las leyendas la fuerza de los Siete Pecados Capitales?
+
+Nanatsu No Taizai Kamigami No Gekirin:
+
+
+Nanatsu No Taizai Movie Tenkuu No Torawarebito:
+Los Siete Pecados Mortales viajan al Templo del Cielo en busca de un ingrediente y se unen a la lucha contra un poderoso grupo de demonios.
+
+Nanatsu No Taizai Fundo No Shinpan:
+ }
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+.container_2{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.tem{
+	background-color: #fff;
+	cursor: pointer;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.95);
+
+<section id="galeria">
+	<h2>Personajes</h2>
+	<div class="galeria-item">
+		<div class="item_g">
+		<img src="imagenes/meliodas.png">	
+			<h3>Meliodas</h3>
+			<p>Meliodas es el líder de los Siete Pecados Capitales, su pecado es la Ira y su símbolo el Dragón.</p>
+		</div>
+		<div class="item_g">
+		<img src="imagenes/ban.jpg">	
+			<h3>Ban</h3>
+			<p>Representa el pecado de la Codicia y además posee la marca del Zorro.</p>
+		</div>
+		<div class="item_g">
+		<img src="imagenes/diane.jpg">	
+			<h3>Diane</h3>
+			<p>Representada por el pecado de la Envidia y además porta la marca de la Serpiente.</p>
+		</div>
+		<div class="item_g">
+		<img src="imagenes/king.jpg">	
+			<h3>King</h3>
+			<p>Es el pecado de la Pereza con el símbolo del perezoso. Su nombre completo es Rey Hada Harlequin</p>
+		</div>
+		<div class="item_g">
+		<img src="imagenes/gowther.jpg">	
+			<h3>Gowther</h3>
+			<p>Gowther es una marioneta creada por un gran mago siendo el pecado del Desinterés.</p>
+		</div>
+		<div class="item_g">
+		<img src="imagenes/merlin.png">	
+			<h3>Merlin</h3>
+			<p>Representada por el pecado de la Gula y su marca es la del Jabalí.</p>
+		</div>
+		<div class="item_g">
+		<img src="imagenes/escanor.jpg">	
+			<h3>Escanor</h3>
+			<p>Es la Soberbia junto al símbolo del León. Además era el príncipe del Reino de Castellio.</p>
+		</div>
+		<div class="item_g">
+		<img src="imagenes/elizabeth.jpg">	
+			<h3>Elizabeth Liones</h3>
+			<p>Elizabeth Liones es la tercera princesa del Reino de Liones y la reencarnación actual de la Diosa Elizabeth. </p>
+		</div>
+	</div>
+</section>
+
+#galeria-item{
+	width: 85%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.galeria-item .item_g{
+	border-radius: px;
+	box-shadow:  0 2px 2px rgba(0,0,0,0,2);
+	overflow: hidden;
+	margin: 25px;
+	margin-bottom: 5px;
+	transition: all 0.25s;
+
+}
+
+.item_g img{
+	width: 320px;
+	height: 230px;
+	object-fit: cover;
+	display: block;
+	max-width: 100%;
+	border-radius: 8px;
+}
+
+.galeria-item{
+	display: flex;
+	width: 85%;
+	margin: auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-radius: 4px;
+}
+
+.galeria-item .item-g{
+	width: 30%;
+	position: relative;
+	height: 250px;
+	margin-bottom: 5px;
+}
+.galeria-item .item-g:hover{
+	transition: translateY(-10px);
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2)
+}
+.item-g img{
+	width: 320px;
+	height: 230px;
+}
+
+	<div class="galeria-item">
+			<div class="item-g">
+			<img src="imagenes/meliodas.png">
+		</div>
+			<div class="item-g">
+			<img src="imagenes/ban.jpg">	
+		</div>
+			<div class="item-g">
+			<img src="imagenes/diane.jpg">	
+		</div>
+			<div class="item-g">
+			<img src="imagenes/king.jpg">	
+		</div>
+			<div class="item-g">
+			<img src="imagenes/gowther.jpg">	
+		</div>
+			<div class="item-g">
+			<img src="imagenes/merlin.png">	
+		</div>
+			<div class="item-g">
+			<img src="imagenes/escanor.jpg">	
+		</div>
+			<div class="item-g">
+			<img src="imagenes/elizabeth.jpg">	
+		</div>
+			<div class="item-g">
+			<img src="imagenes/hawk.jpg">	
+		</div>
+	</div> 
+
+
+
+
+<section id="contacto">
+	<form id="form-contacto">
+		<h2>¿Tienes dudas o comentarios? Contáctanos!</h2>
+		Tu nombre:
+		<br><input type="text" name="nombre" id="nombre"><br>
+		Correo:
+		<br><input type="email" name="correo" id="correo"><br>
+		Mensaje:
+		<br><textarea></textarea><br>
+		<button id="btn-form">Enviar</button>
+	</form>
+</section>
+<footer id="pie">
+	<!-- logotipo y nombre del sitio
+		menú del sitio
+		links a redes sociales -->
+</footer>
+
+body{
+	height: 100%;
+	background: url(imagenes/portada_nnt.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#hoja{
+	background-color: white;
+	border-radius: 8px;
+	margin: 30px 150px;
+	height: 100%;
+	background-position: center;
+	background-attachment: fixed;

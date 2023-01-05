@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body {
+    background: #f1f1f1;
+    margin: 0;
+}
+
+
+form{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    font-size: 15px;
+    color: #3D3D3D ;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 14.9017px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 2;
+    color: #212529;
+    text-align: left;
+    border: 1.5px solid rgba(0,0,0,.125);
+    width: 100%;
+    
+}
+
+button{
+    font-size: 16px;
+    color: #fff;
+    background-color: #028260;
+    border-color: #028260;
+    margin-top: 30px;
+    outline: none;
+    padding: 9px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+button:hover {
+    background-color: #2B8A71;
+    color: #fff;
+}
+
+.container{
+    padding: 40px 40px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-info {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.info {
+    box-sizing: border-box;
+    padding: 3em 3.5em;
+    width: 450px;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-info {
+    margin: 40px 0;
+}
+
+.info h2 {
+    display: inline-block;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-weight: 500;
+}

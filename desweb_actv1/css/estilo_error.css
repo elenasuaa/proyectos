@@ -1,0 +1,61 @@
+body{
+	 font-family: "Century gothic";
+}
+img #error{
+	justify-content: center;
+	width: 10%;
+}
+ #error h1{
+	text-align: center;
+	font-size: 300px;
+}
+#error h2{
+	text-align: center;
+	color: #660066;
+}
+
+#error1{
+	text-decoration: none;
+	color: #ffffff!important;
+    border-width: 12px!important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 0px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: "Century gothic";
+    font-weight: 300!important;
+    padding-right: 2em;
+    padding-left: 0.5em;
+    background-color: #FF33CC;
+	margin: 10px;
+}
+
+#error_2 img{
+	justify-content: center;
+	width: 30%;
+	margin: 5%;
+}
+
+ #error_2 h1{
+	text-align: center;
+	font-size: 300px;
+}
+#error_2 h2{
+	text-align: center;
+	color: #009999;
+}
+#error2{
+	text-decoration: none;
+	color: #ffffff!important;
+    border-width: 12px!important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 0px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: "Century gothic";
+    font-weight: 300!important;
+    padding-right: 2em;
+    padding-left: 0.5em;
+    background-color: #33CCCC;
+	margin: 10px;
+}

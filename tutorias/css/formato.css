@@ -1,0 +1,124 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table#datos_t{
+    width: 35%;
+}
+td, tr, th{
+    font-size: 12px;
+    padding: 5px 1px 5px 6px;
+    color: black;
+    border: 1px solid #CDDCC2;
+    background-color: #F6FFF0;
+    /* background-color: #F8F8F8; */
+}
+
+label{
+    padding: 1px;
+    font-weight: 700;
+}
+
+input[type=submit]{
+    color: #002200;
+    display: inline-block;
+    width: 10%;
+    margin: 5px 5px;
+    padding: 14px 10px;
+    height: 20px;
+    font: normal 12px/20px Arial, sans-serif;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 50%);
+    border: 1px solid  silver;
+}
+
+input[type=text]{
+    color: #002200;
+    padding: 4px;
+    text-align: left;
+    margin: 4px 4px;
+    width: 92%;
+    border: none;
+	border-bottom: 1.2px solid #C9C6C6;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	font-size: 13.5px;
+    text-transform: uppercase;
+}
+
+input[type=number]{
+    color: #002200;
+    padding: 4px;
+    text-align: left;
+    margin: 4px 4px;
+    width: 90%;
+    border: 1.2px solid #C9C6C6;
+
+}
+
+input[type=date],
+input[type=datetime-local]{
+    color: #002200;
+    padding: 4px;
+    text-align: left;
+    margin: 4px 4px;
+    width: 90%;
+    border: 1.2px solid #C9C6C6;
+}
+
+input[type=tel]{
+    color: #002200;
+    padding: 4px;
+    text-align: left;
+    margin: 4px 4px;
+    width: 92%;
+    border: none;
+	border-bottom: 1.2px solid #C9C6C6;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	font-size: 13.5px;
+    text-transform: uppercase;
+}
+
+select{
+    color: #002200;
+    padding: 4px;
+    text-align: left;
+    margin: 4px 4px;
+    width: 90%;
+    border: 1.2px solid #C9C6C6;
+}
+textarea{
+    color: #002200;
+    padding: 4px;
+    text-align: left;
+    margin: 4px 4px;
+    width: 90%;
+    border: 1.2px solid #C9C6C6;
+    font: normal 12px/20px Arial, sans-serif;
+}
+
+
+#area-c{
+    text-align: center;
+}
+
+#btn-guardar{
+    height: 20px;
+    line-height: 15px;
+    color: #af7100;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #fff;
+    border: 1.1px solid #CA870A;
+    background-color: #FFEFD5;
+    border-radius: 4px;
+    margin: 5px 2px;
+    text-shadow: 0 1px 0 #fff;
+    padding: 0px 20px;
+}
+
+#img-enc{
+    width: 40%;
+    margin: 5px;
+}

@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cinzel&family=Comfortaa:wght@300&family=Didact+Gothic&family=Do+Hyeon&family=Josefin+Sans:wght@200&family=Nunito+Sans:ital,wght@1,200&family=Staatliches&family=Stalinist+One&family=Teko&family=Ubuntu:ital,wght@1,300&family=Yusei+Magic&display=swap');
+@media screen and (min-width: 650px){
+	.div_nav{
+		display: inline-block;
+	}
+	#menu_chico{
+		display: none;
+	}
+	#menu{
+		display: block;
+	}
+	h2{
+		font-size: 40px;
+	}
+	#AN{
+		display: inline-block;
+		color: white;
+		text-shadow: 2px 2px 2px black;
+		font-size: 30px;
+	}
+	#pie img{
+	width: 8%;
+	position: relative;
+	display: inline-block;
+	}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	height: 100%;
+	background: url(imagenes/portada_nnt.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#hoja{
+	width: 100%;
+	margin: 30px 80px;
+	height: 100%;
+	background: rgb(255,255,255,0.75);
+	border-radius: 8px;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+#hoja:hover{
+	box-shadow: 0 8px 1px rgba(0,0,0,0.1)
+
+}
+
+nav{
+	background: orange;
+
+}
+
+h2{
+	font-family: arial;
+	text-align: center;
+	font-size: 25px;
+}
+
+h3{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 13px;
+	text-align: center;
+}
+
+h4{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	text-shadow: 3px 3px 3px black;
+}
+
+p{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+	margin: 10px 42px;
+	text-align: justify;
+}
+
+hr{
+	margin: 10px 150px;
+}
+
+.div_nav{
+	display: inline-block;
+	margin: 32px 40px;
+}
+
+#div_nav1 h1, #div_nav3 h1{
+	font-size: 50px;
+	font-family: gang of three;
+	text-shadow: 2px 2px 2px white;
+}
+
+#div_nav2{
+	position: absolute;
+	right: 0px;
+	margin-top: 50px;
+}
+
+#div_nav2 a, #div_nav4 a{
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 18px;
+	margin-right: 14px;
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+#div_nav4 a{
+	border: 1px solid white;
+	padding: 5px 10px;
+	font-size: 20px;
+	display: block;
+}
+
+#div_nav4{
+	display: none;
+}
+
+#div_nav3{
+	margin: 0px 35px;
+}
+
+#inicio{
+	background-image: url(nanatsu.jpg);
+	text-align: center;
+	color: white;
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2)
+}
+
+#inicio div{
+	background-color: rgba(0, 0, 0, 0.1);
+	padding-top: 30px;
+	padding-bottom: 60px
+}
+#inicio h2{
+	font-family: 'Staatliches', cursive;
+	font-size: 55px;
+	text-shadow: 1px 2px 3px black;
+}
+
+.cont-text{
+	background-color: white;
+	border-radius: 8px;
+	margin: 20px 200px;
+}
+
+#inicio button{
+	padding: 8px 20px;
+	border-radius: 3px;
+	font-size: 16px;
+	background-color: orange;
+	color: white;
+	border: none;
+}
+
+#inicio button:hover{
+	background-color: white;
+	color: orange;
+}
+.linea{
+	border-top: 12px solid #FFBF37 ;
+}
+#contenido h5{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	padding: 8px 120px 8px 120px;
+}
+
+#contenido img{
+	max-width: 100%;
+	display: block;
+	height: 250px;
+}
+
+.item p{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 12px;
+	margin: 10px 22px;
+	text-align: justify;
+}
+
+.item img{
+	max-width: 100%;
+	display: block;
+	position: relative;
+	height: 300px;
+	margin: 25px 20px 20px 60px;
+}
+
+.container{
+	width: 100%;
+	max-width: 1500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container .item{
+	width: 280px;
+	height: 530px;
+	border-radius: 8px;
+	margin: 15px;
+	text-align: justify;
+	background-color: white;
+}
+
+.container .item:hover{
+	transition: translateY(-10px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.container_2{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container_2 .item{
+	width: 280px;
+	height: 530px;
+	border-radius: 8px;
+	margin: 10px;
+	text-align: justify;
+	background-color: white;
+}
+
+.container_2 .item:hover{
+	transition: translateY(-10px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.gallery h1{
+	font-family: arial;
+	font-size: 15px;
+}
+
+.gallery{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.gallery img{
+	width: 100%;
+}
+
+figure{
+	width: 220px;
+	height: 170px;
+	position: relative;
+	overflow: hidden;
+	margin: 20px;
+}
+
+figure:hover h1{
+	opacity: 1;
+}
+
+figure img{
+	width: 90%;
+	box-shadow: 0px 12px 25px rgba(255,255,255,0.50);
+}
+
+figure h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background: rgb(0,0,0,0.3);
+	padding: 100%;
+	opacity: 0;
+	transition: all 400ms cubic-bezier(1,0,0,1);
+}
+
+#form-contacto{
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align: center;
+	background: #FFC547;
+	color: white;
+	padding: 25px;
+}
+
+label{
+	margin: 0%;
+	padding: 0%;
+	font-size: 13px;
+	color: white;
+}
+
+input{
+	width: 20%;
+	margin-bottom:13px;
+	text-align: center;
+}
+
+#form-contacto p{
+	text-align: center;
+}
+
+#form-contacto input,
+#form-contacto textarea{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	color: white;
+	font-size: 14px;
+}
+#form-contacto button{
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 13px;
+	background-color: white;
+	color: orange;
+	border: none;
+}
+
+#form-contacto button:hover{
+	background-color: orange;
+	color: white;
+}
+
+#pie{
+	background: #AF7F01;
+	width: 100%;
+	position: absolute;
+}
+
+
+
