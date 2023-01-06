@@ -82,7 +82,11 @@ nav ul li a:hover{
 }
 section{
 	padding: 25px;
-} 
+}
+
+#guia section{
+	display: inline-block;
+}
 
 #titulo nav {
 	display: flex;
